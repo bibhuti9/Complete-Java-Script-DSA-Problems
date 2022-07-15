@@ -5,11 +5,14 @@
   "main": "first.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-   "start":"nodemon first"
+    "start": "nodemon arrayFunction"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.15"
+    "inquirer": "^9.0.0",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1"
   }
 }
