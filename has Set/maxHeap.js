@@ -1,3 +1,5 @@
+/* TIME COMPLEXITY O(logn) */
+/* SPACE COMPLEXITY O(1) */
 // Parent = index/2
 // left child = 2*i
 // Right child = 
@@ -5,7 +7,7 @@ var arr = [50];
 function insert(value){
     arr.push(value);
     let i = arr.length-1;
-    while(i>0){
+    while(i>=0){
         let parent = i/2;
         if(arr[parent]<arr[i]){
             let tmp = arr[parent];
@@ -17,17 +19,13 @@ function insert(value){
         }
     }
 }
+insert(30);
+console.log(arr);
 insert(40);
 console.log(arr);
-insert(30);
+insert(10);
 console.log(arr);
 insert(60);
 console.log(arr);
-// insert(45);
-// console.log(arr);
-// insert(60);
-// console.log(arr);
-// insert(80);
-// console.log(arr);
 
 
