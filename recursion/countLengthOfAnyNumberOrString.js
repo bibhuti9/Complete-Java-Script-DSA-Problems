@@ -5,4 +5,4 @@ class Solution {
     }
 }
 var obj = new Solution();
-console.log( obj.countDigits(0) );
+console.log( obj.countDigits("2512") );

@@ -29,3 +29,10 @@ insert(60);
 console.log(arr);
 
 
+function deleteValue(value){
+     
+}   
+deleteValue(30)
+
+
+
